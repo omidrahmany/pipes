@@ -6,7 +6,7 @@
     "pipes": {
       "projectType": "application",
       "schematics": {
-        "@schematics/angular:application": {
+        "@sche/home/omid/IdeaProjects/angular_project/observablesmatics/angular:application": {
           "strict": true
         }
       },
@@ -27,6 +27,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
